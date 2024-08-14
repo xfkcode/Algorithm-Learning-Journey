@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdexcept>
+#include <stdlib.h>
 
 template<typename T>
 class m_vector {
@@ -100,5 +101,6 @@ int main(int argc, const char** argv) {
         std::cout << "Element at index " << i << ": " << vec[i] << std::endl;
     }
     
+    system("pause");
     return 0;
 }

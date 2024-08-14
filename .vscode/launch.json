@@ -7,11 +7,11 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "d:/学习笔记/Algorithm-Learning-Journey/Day001",
-      "program": "d:/学习笔记/Algorithm-Learning-Journey/Day001/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
